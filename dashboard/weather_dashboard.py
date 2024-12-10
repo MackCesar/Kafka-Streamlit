@@ -13,7 +13,7 @@ load_dotenv()
 
 # Kafka Configuration
 KAFKA_TOPIC = "weather-raw"
-KAFKA_BROKER = os.getenv("KAFKA_BROKER", "host.docker.internal:9092")
+KAFKA_BROKER = os.getenv("KAFKA_BROKER")
 
 # File Paths and Defaults
 CITIES_FILE = "./cities.json"

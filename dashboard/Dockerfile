@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy application files
 COPY weather_dashboard.py /app/
 COPY ../requirements.txt /app/
-COPY .env .
+COPY ../.env .
 
 # Install dependencies
 RUN pip install streamlit kafka-python>=2.0 requests pandas python-dotenv streamlit-autorefresh streamlit-javascript
