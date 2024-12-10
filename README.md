@@ -21,7 +21,7 @@ A real-time weather dashboard built with **Streamlit**, **Kafka**, and **OpenWea
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/weather-dashboard.git
+   git clone https://github.com/MackCesar/Kafka-Streamlit.git
    cd weather-dashboard 
    ```
    
